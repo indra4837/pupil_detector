@@ -55,6 +55,11 @@ $ python pupil_detect.py --input_file=/path/to/file.mp4 --image_layers=True
 $ python pupil_detect.py -h
 ```
 
+### Parameters
+- input_file (str) = path/to/file
+- input_format (int) = Image(0) or Video (1)
+- image_layers (bool) = Output only (False) or All layers (True)
+
 ### Video Controls: 
 - 'P': Pause/play the video
 - 'Q': Exit the video 
